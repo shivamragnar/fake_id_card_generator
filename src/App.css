@@ -1,38 +1,55 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  /* background-color: #fff; */
+  /* background: 
+  linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px; */
+  background-color:#708090;
+  background-size: 64px 128px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.tb{
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-sign{
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 30px;
+  transform: rotate(-10deg);
+}
+
+.btn{
+  background-color: #fff;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  color: #111;
+}
+
+.btn:active{
+  opacity: .8;
+}
+
+.box{
+  min-width: 50px;
+  min-height: 50px;
+  background-color: tomato;
+  cursor: pointer;
+}
+.box:hover{
+  opacity: .8;
+}
+.circle{
+  border-radius: 100px;
+}
+.df{
+  display: flex;
+}
+.m-2{
+  margin: 2px;
 }
